@@ -177,11 +177,11 @@ function myFunction2(y) {
   }
 }
 
-var x = window.matchMedia("(max-width: 600px)")
+var x = window.matchMedia("(max-width: 700px)")
 myFunction(x) // Call listener function at run time
 x.addListener(myFunction) // Attach listener function on state changes
 
-var y = window.matchMedia("(min-width: 601px)")
+var y = window.matchMedia("(min-width: 701px)")
 myFunction2(y) // Call listener function at run time
 y.addListener(myFunction2) // Attach listener function on state changes
 
